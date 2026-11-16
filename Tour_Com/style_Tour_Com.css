@@ -1,0 +1,78 @@
+.image-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.image-container img {
+	width: 304px;
+	height: 236px;
+	object-fit: cover;
+}
+.navbar {
+	width: 100%;
+	min-height: 65%;
+	background-color: rgb(172, 67, 67);
+	border-radius: 50px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 35px;
+}
+.new-links {
+	display: flex;
+	list-style: none;
+	gap: 55px;
+	background-color: rgb(151, 138, 138);
+}
+.new-links a {
+	text-decoration: none;
+	color: rgb(218, 113, 22);
+	font-size: 22px;
+}
+/* Theme Button*/
+.theme-btn {
+	padding: 9px 15px;
+	border: none;
+	border-radius: 8px;
+
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.logo {
+	color: rgb(230, 49, 8);
+	font-size: 25px;
+}
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background-image: gr;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	padding: 25px 5%;
+}
+.navbar {
+	width: 100%;
+	min-height: 65%;
+	background-color: rgba(255, 249, 249, 0.995);
+	border-radius: 50px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 35px;
+}
+.container-image {
+	transition-delay: 50% -50%;
+}
+.container-image img {
+	width: 200px;
+	height: 150px;
+	display: flex;
+	gap: 20px;
+}

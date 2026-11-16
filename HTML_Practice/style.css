@@ -1,0 +1,105 @@
+/* remove default spacing */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* main background */
+
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(boat.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	padding: 25px 5%;
+}
+/* Navigation bar*/
+
+.navbar {
+	width: 100%;
+	min-height: 65%;
+	background-color: rgba(192, 36, 36, 0.995);
+	border-radius: 50px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 35px;
+}
+
+/* LOGO*/
+.logo {
+	color: white;
+	font-size: 25px;
+}
+
+/* Navigation links*/
+
+.new-links {
+	display: flex;
+	list-style: none;
+	gap: 55px;
+}
+.new-links a {
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+}
+/* Theme Button*/
+.theme-btn {
+	padding: 9px 15px;
+	border: none;
+	border-radius: 8px;
+
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* Main content*/
+
+.content {
+	text-align: center;
+	margin-top: 55px;
+}
+.content h1 {
+	font-size: 30px;
+	margin-bottom: 18px;
+}
+.content p {
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: black;
+}
+/* Explore Button*/
+.explore-btn {
+	padding: 5px 12px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+/* Responsive Design*/
+
+@media (max-width: 786px) {
+	.navbar {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 15px;
+		border-radius: 20px;
+	}
+	.nav-links {
+		gap: 15px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.nav-links a {
+		font-size: 16px;
+	}
+	.content h1 {
+		font-size: 23px;
+	}
+}
